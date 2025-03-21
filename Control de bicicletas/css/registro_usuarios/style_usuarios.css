@@ -1,0 +1,21 @@
+
+.registro{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 10rem;
+    align-items: center;
+}
+
+.registro-usuarios{
+    display: flex;
+    flex-direction: column;
+}
+
+.registro-usuarios h2{
+    text-align: center;
+}
+
+.registro-imagen img{
+    object-fit: cover;
+ 
+}
